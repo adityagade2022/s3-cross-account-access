@@ -1,0 +1,28 @@
+# Step 1: Configure your AWS CLI
+PS C:\Users\HP> aws configure
+AWS Access Key ID [****************D2YL]: ****************
+AWS Secret Access Key [****************c4BU]: ****************
+Default region name [ap-south-1]: ap-south-1
+Default output format [json]: json
+
+# Step 2: List the bucket
+PS C:\Users\HP> aws s3 ls s3://myawsbuckfors3/
+2025-08-08 00:04:08     192266 PullObject.jpeg
+2025-08-07 23:30:09      36136 awsimage_.webp
+
+# Step 3: Download objects  (s3:GetObject)
+PS C:\Users\HP> aws s3 cp s3://myawsbuckfors3/awsimage_.webp C:\Users\HP\Downloads\
+download: s3://myawsbuckfors3/awsimage_.webp to Downloads\awsimage_.webp
+
+# Step 4: Pull the object (s3:PullObject)
+PS C:\Users\HP> aws s3 cp "C:\Users\HP\Downloads\PullObject.jpeg" s3://myawsbuckfors3/
+upload: Downloads\PullObject.jpeg to s3://myawsbuckfors3/PullObject.jpeg
+
+# Step 5: List the bucket
+PS C:\Users\HP>  aws s3 ls s3://myawsbuckfors3/
+2025-08-08 00:31:11     192266 PullObject.jpeg
+2025-08-07 23:30:09      36136 awsimage_.webp
+
+
+
+
