@@ -23,18 +23,28 @@ The objective of this project is to securely enable and manage cross-account acc
 📌 Benefits of This Setup
 
 ✅ Secure Data Sharing – No need to expose permanent credentials.
+
 ✅ Cost Efficient – Centralized storage, avoiding data duplication.
+
 ✅ Centralized Data Management – Single source of truth.
+
 ✅ Scalability – Supports multiple AWS accounts and apps.
+
 ✅ Auditability – Track access using CloudTrail and logs.
+
 ✅ Fine-Grained Permissions – Control access at bucket/object level.
+
 ✅ Multi-Tenant Support – Different accounts can access different data securely.
 
 📖 How to Use:-
 1.Create an S3 Bucket in Account A.
+
 2.Set Up IAM Role & S3 Access Grants in Account A.
+
 3.Configure Bucket Policies to allow cross-account access.
+
 4.In Account B, request credentials using AWS SDK/CLI.
+
 5.Access the S3 Bucket with temporary credentials.
 
 
