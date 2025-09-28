@@ -5,7 +5,7 @@
             "Sid": "AllowAccountBAccess",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::235969062113:root"
+                "AWS": "arn:aws:iam::23xxxxxxxxx2:root"
             },
             "Action": [
                 "s3:GetObject",
@@ -17,7 +17,7 @@
             "Sid": "AllowAccountBListBucket",
             "Effect": "Allow",
             "Principal": {
-                "AWS": "arn:aws:iam::235969062113:root"
+                "AWS": "arn:aws:iam::23xxxxxxxxxx5:root"
             },
             "Action": "s3:ListBucket",
             "Resource": ""arn:aws:s3:::mybucketforss3/*"
