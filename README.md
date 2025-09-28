@@ -12,6 +12,6 @@ The objective of this project is to securely enable and manage cross-account acc
 6] This ensures controlled, secure, and fine-grained access management between accounts.
 
 📌 Architecture Flow :-
-<img width="1536" height="900" alt="image" src="https://github.com/user-attachments/assets/6e4d5d4e-feb3-4df1-9de2-021492b4cec5" />
+<img width="1200" height="700" alt="image" src="https://github.com/user-attachments/assets/6e4d5d4e-feb3-4df1-9de2-021492b4cec5" />
 
 
