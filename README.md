@@ -1,3 +1,5 @@
+
+Aditya Gade
 📌 Project Objective :-
 
 The objective of this project is to securely enable and manage cross-account access to Amazon S3 buckets, allowing designated AWS accounts (external or internal to the organization) to access, read, or write to specific S3 buckets without compromising security or governance standards.
